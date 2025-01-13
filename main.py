@@ -1,6 +1,6 @@
 import requests
 import argparse
-keys=['机器学习','machine learning'] #这里放文件名中要有的关键字
+keys=['机器学习','machine learning','机器学习概论'] #这里放文件名中要有的关键字
 search='USTC' #这里放搜索关键字
 parser = argparse.ArgumentParser(description='Ustc-course Spyder')
 parser.add_argument('token', help='token for your github account', type=str)
